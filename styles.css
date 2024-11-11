@@ -47,7 +47,6 @@ header h1{
 
 header h1 span{
     font-weight: 100;
-    color: var(--grayish_blue);
 }
 
 header p{
@@ -90,6 +89,8 @@ main{
     line-height: 23px;
     letter-spacing: 0.08px;
     color: var(--grayish_blue);
+    margin: 5px 0 0 0;
+    width: 90%;
 }
 
 .card:nth-child(1){
