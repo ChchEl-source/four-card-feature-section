@@ -35,6 +35,7 @@ header{
     width: 311px;
     margin: 50px auto;
     text-align: center;
+
 }
 
 header h1{
@@ -46,11 +47,14 @@ header h1{
 
 header h1 span{
     font-weight: 100;
+    color: var(--grayish_blue);
 }
 
 header p{
     letter-spacing: 0.1px;
     line-height: 25px;
+    color: var(--grayish_blue);
+    font-weight: 300;
 }
 
 main{
@@ -68,7 +72,7 @@ main{
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #fff;
     padding: 24px;
     box-shadow: 1px 5px hsl(234, 12%, 84%);;
@@ -85,6 +89,7 @@ main{
     font-size: 13px;
     line-height: 23px;
     letter-spacing: 0.08px;
+    color: var(--grayish_blue);
 }
 
 .card:nth-child(1){
@@ -185,10 +190,11 @@ main{
 
     header{
         width: 540px;
-        margin-top: 100px;
+        margin-top: 75px;
     }
     header h1{
-        font-size: 38px;
+        font-size: 36px;
+        letter-spacing: 0.25px;
     }
 
 
